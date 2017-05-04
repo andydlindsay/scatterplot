@@ -31,6 +31,12 @@ md-card-content {
   padding-left: 30px;
 }
 
+.legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;
+}
+
 .footer {
   padding-left: 60px;
   font-size: 0.75em;
@@ -65,4 +71,7 @@ div.tooltip {
   border: 0px;
   border-radius: 8px;
   pointer-events: none;
+  max-width: 235px;
+  left: 20%;
+  top: 65%;
 }
